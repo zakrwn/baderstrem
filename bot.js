@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const devs = ["391573932857360384"]; //الايدي حقك
+const devs = ["391573932857360384","295909228328255488"]; //الايدي حقك
 const adminprefix = ["b"]; // البرفكس
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
